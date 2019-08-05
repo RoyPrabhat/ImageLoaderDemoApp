@@ -4,6 +4,7 @@ A simple image loading app with MVVM design pattern, Picasso, retrofit, View Mod
 
 
 Features of the application
+
 1.) Fetch random 10 images from unsplashj and display thumbmnails of the images
     in a grid layout in the first activity
 2.) Tap any of the photos to go to a new screen to view an enalarged version of the image
@@ -16,6 +17,7 @@ Features of the application
     wrong while loading the image
 
 Design decisions
+
 1.) Use of one most the most prevalent ui design pattern which is MVVM
 2.) Use of retrofit to make api calls
 3.) Use of View Model, and LiveData components provided by android archietecture components
@@ -23,19 +25,23 @@ Design decisions
     provides image caching in memory and disk-level image caching by default for faster load
 
 Assumptions while developing the application
+
 1.) Fullscreen display meant  displaying the full image of a very large imageview
 2.) Also in order to cancel the image loading when not required, a button was required so did not
     give the full screen dimensions to the image view.
 
 Note:-
+
 1.) Not too much deataling is there on the beauty of the UI
 
 Steps to run the project
+
 1.) Clone Repository
 2.) Open the project in android studio
 3.) Run the application
 
 Steps to build apk the project
+
 1.) Clone Repository
 2.) Open the project in android studio
 3.) Go to Build -> Build Bundle(s) / Build APK (s) --> Build APK(s)
